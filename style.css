@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2656;
+}
+/* header start */
+header{
+    padding: 10px 0 7px;
+    border-bottom: 4px solid #f0f2f4;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 10%;
+    float: left;
+    padding: -2px;
+
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 45%;
+    float: right;
+    margin-top: 15px;
+
+}
+.menu ul{
+    float: left;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    color: #0f2656;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 30px;
+    transition: .3s;
+}
+.menu ul li:last-child a {
+    margin-right: 0px;
+}
+.menu ul li a:hover{
+    color: #0D63FF;
+}
+/* header end */
+/* banner start  */
+.banner{
+    padding: 70px 0;
+}
+.wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+.b_wrapper{
+    text-align: center;
+}
+.b_wrapper h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+.text{
+    color: #0D63FF;
+}
+.b_wrapper p{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    /* font-size: 16px; */
+}
+.b_imge{
+    width: 65%;
+    margin: 0 auto;
+}
+.b_imge img{
+width: 100%;
+}
+/* banner end  */
+/* success start */
+.success{
+    padding: 30px 0;
+}
+.coloum{ 
+    overflow: hidden;
+}
+.L_content{
+    width: 45%;
+    float: left;
+    text-align: right;
+    padding-left: 25px;
+}
+.L_content h2{
+    color: #f15767;
+    font-size: 45px;
+}
+.L_content p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 0;
+}
+.R_content{
+    width: 45%;
+    float: right;
+    padding-right: 25px;
+}
+.R_content h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+/* success end */
